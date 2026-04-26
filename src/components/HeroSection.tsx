@@ -18,7 +18,7 @@ export default function HeroSection() {
   }, []);
 
   return (
-    <div className="relative min-h-screen w-full overflow-hidden bg-[#2a2a2a] flex flex-col">
+    <div className="relative h-screen w-full overflow-hidden bg-[#2a2a2a] flex flex-col">
       {/* Background hero image — portrait photo, fills full height, centered */}
       <div className="absolute inset-0 z-0 pt-17 overflow-hidden w-full h-full">
         <img
@@ -92,10 +92,10 @@ export default function HeroSection() {
     max-w-[95%] sm:max-w-[85%] md:max-w-[78%]
   "
         >
-          <p className="sm:text-base md:text-lg text-white leading-snug">
+          <p className="text-[1.23rem] md:text-lg text-white leading-snug">
             Meetups Ambassador at Miro
           </p>
-          <p className="sm:text-base md:text-lg text-white leading-snug">
+          <p className="text-[1.11rem] md:text-lg text-white leading-snug">
             Training Organizer & Part-time Mentor
           </p>
         </div>
