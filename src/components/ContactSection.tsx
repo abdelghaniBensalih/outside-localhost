@@ -34,13 +34,15 @@ export default function ContactSection() {
                 abdelghanibensalih@email.com
               </a>
             </div>
-            
+
             <div className="flex items-center gap-4">
               <span className="w-8 h-8 flex items-center justify-center border border-gray-600 rounded-full">
                 <FaLinkedin size={16} style={{ color: "#0A66C2" }} />
               </span>
               <a
                 href="https://linkedin.com/in/a-bensalih"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="hover:text-white underline"
               >
                 linkedin.com/in/a-bensalih
@@ -53,13 +55,13 @@ export default function ContactSection() {
               </span>
               <a
                 href="https://instagram.com/rouni.dev"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="hover:text-white underline"
               >
                 instagram.com/rouni.dev
               </a>
             </div>
-
-            
 
             <div className="flex items-center gap-4">
               <span className="w-8 h-8 flex items-center justify-center border border-gray-600 rounded-full">
@@ -67,6 +69,8 @@ export default function ContactSection() {
               </span>
               <a
                 href="https://x.com/a_bensalih"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="hover:text-white underline"
               >
                 https://x.com/a_bensalih
