@@ -2,7 +2,7 @@ export default function AboutSection() {
   return (
     <div className="w-full bg-white font-sans text-black flex flex-col">
       {/* Title */}
-      <div className="px-10 pt-4 pb-0">
+      <div className="px-10 pt-14 pb-0">
         <p className="text-3xl md:text-5xl font-light leading-none text-[#C9A84C]">
           About
         </p>

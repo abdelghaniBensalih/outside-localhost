@@ -4,6 +4,7 @@ import ExperienceSection from "./components/ExperienceSection";
 import WorkshopsSection from "./components/WorkshopsSection";
 import ContactSection from "./components/ContactSection";
 import FooterSection from "./components/FooterSection";
+import DisclaimerModal from "./components/DisclaimerModal";
 import { events } from "./data/events";
 import { workshops } from "./data/workshops";
 import "./App.css";
@@ -11,6 +12,9 @@ import "./App.css";
 function App() {
   return (
     <div className="w-full overflow-hidden bg-white">
+      {/* Disclaimer Modal */}
+      <DisclaimerModal />
+
       {/* Hero Section */}
       <HeroSection />
 
