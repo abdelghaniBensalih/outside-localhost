@@ -114,6 +114,7 @@ const experiences = [
     impact: ["3 rounds", "5+ problems each"],
     image: "/images/experiences/code212-uca/code212-uca.png",
     images: [
+      "/images/experiences/code212-uca/code212-uca.png",
       "/images/experiences/code212-uca/coding-league/1.jpg",
       "/images/experiences/code212-uca/coding-league/2.jpg",
       "/images/experiences/code212-uca/coding-league/3.jpeg",
