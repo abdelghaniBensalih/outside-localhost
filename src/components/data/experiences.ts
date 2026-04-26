@@ -30,10 +30,10 @@ const experiences = [
     description:
       "Organizing and hosting interactive meetups and workshops on visual thinking, brainstorming, and team collaboration using Miro. Facilitating hands-on sessions to help participants transform ideas into clear, structured outcomes while fostering community engagement.",
     impact: [
-      "workshops & meetups",
-      "Community building",
-      "Visual collaboration",
-      "Interactive sessions",
+      "workshops",
+      "Meetups",
+      "Planning",
+      "Collaboration",
       "Team engagement",
     ],
     image: "/images/experiences/miro/miro-logo.png",
@@ -60,8 +60,8 @@ const experiences = [
     impact: [
       "15 problems",
       "5 hours",
-      "Advanced challenges",
-      "Competitive programming",
+      "DSA",
+      "Programming",
       "Problem-solving",
     ],
     image: "/images/experiences/code212-uca/code212-uca.png",
@@ -85,7 +85,6 @@ const experiences = [
     description:
       "Teaching STEM programming and robotics concepts to children using mBot2, MakeBlock, and Scratch. Guiding students through mini projects to strengthen logical reasoning, problem-solving, and critical thinking.",
     impact: [
-      "Robotics education",
       "STEM learning",
       "Logical reasoning",
       "Problem-solving",
@@ -111,9 +110,8 @@ const experiences = [
     impact: [
       "HTML & CSS",
       "Programming basics",
-      "Practical coding skills",
-      "Student mentorship",
-      "Educational support",
+      "Practical coding",
+      "Mentorship",
     ],
     image: "/images/experiences/nobel-school/nobel-school-logo.png",
     images: [
