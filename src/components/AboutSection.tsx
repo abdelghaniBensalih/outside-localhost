@@ -3,10 +3,10 @@ export default function AboutSection() {
     <div className="w-full bg-white font-sans text-black flex flex-col">
       {/* Title */}
       <div className="px-10 pt-4 pb-0">
-        <p className="text-6xl md:text-7xl font-light leading-none text-[#C9A84C]">
+        <p className="text-3xl md:text-5xl font-light leading-none text-[#C9A84C]">
           About
         </p>
-        <p className="text-6xl md:text-7xl font-semibold leading-tight text-black">
+        <p className="text-3xl md:text-5xl font-semibold leading-tight text-black">
           Abdelghani Bensalih
         </p>
       </div>
