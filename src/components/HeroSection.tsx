@@ -150,8 +150,8 @@ export default function HeroSection() {
       </div>
 
       {/* Floating Social Icons */}
-      <div className="fixed bottom-8 right-8 z-30 flex flex-col gap-3 items-center">
-        <div className="flex gap-4">
+      <div className="fixed bottom-8 right-8 z-30 flex flex-col gap-4 items-center">
+        <div className="flex flex-col gap-4">
           <a
             href="https://linkedin.com/in/a-bensalih"
             target="_blank"
