@@ -4,8 +4,8 @@ export default function WorkshopsSection() {
   return (
     <section id="workshops" className="w-full">
       {/* Title Block */}
-      <div className="bg-[#f7f7f7] py-10 px-6 md:px-12">
-        <h2 className="text-5xl md:text-6xl font-light leading-tight">
+      <div className="bg-[#f7f7f7] py-10 px-3 md:px-12">
+        <h2 className="text-4xl md:text-6xl font-light leading-tight">
           <span className="text-[#C8A96A]">Achievements/</span> <br />
           <span className="text-black font-normal">Featured Activities</span>
         </h2>

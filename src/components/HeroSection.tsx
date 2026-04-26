@@ -20,7 +20,7 @@ export default function HeroSection() {
   return (
     <div className="relative min-h-screen w-full overflow-hidden bg-[#2a2a2a] flex flex-col">
       {/* Background hero image — portrait photo, fills full height, centered */}
-      <div className="absolute inset-0 z-0 pt-15 overflow-hidden w-full h-full">
+      <div className="absolute inset-0 z-0 pt-17 overflow-hidden w-full h-full">
         <img
           src="/images/Picsart_26-04-25_21-54-45-882.png"
           alt="Hero background"
@@ -56,10 +56,29 @@ export default function HeroSection() {
       {/* Bottom text block */}
       <div className="relative z-20 px-4 pb-0">
         <div className="leading-none">
-          <p className="text-[clamp(4rem,18vw,7rem)] font-semibold text-white leading-none">
+          <p
+            className="
+      font-semibold text-white leading-none
+      text-[3rem]
+      sm:text-[3.5rem]
+      md:text-[4rem]
+      lg:text-[5rem]
+      xl:text-[6rem]
+    "
+          >
             Abdelghani
           </p>
-          <p className="text-[clamp(4rem,18vw,7rem)] font-semibold text-[#C9A84C] leading-none">
+
+          <p
+            className="
+      font-semibold text-[#C9A84C] leading-none
+      text-[3rem]
+      sm:text-[3.5rem]
+      md:text-[4rem]
+      lg:text-[5rem]
+      xl:text-[6rem]
+    "
+          >
             Bensalih
           </p>
         </div>
@@ -67,11 +86,16 @@ export default function HeroSection() {
 
       {/* Subtitle bar + arrow */}
       <div className="relative z-20 flex items-stretch mt-3">
-        <div className="bg-black px-5 py-5 flex-1 max-w-[78%]">
-          <p className="text-xl text-white leading-snug">
+        <div
+          className="
+    bg-black px-5 py-5 flex-1
+    max-w-[95%] sm:max-w-[85%] md:max-w-[78%]
+  "
+        >
+          <p className="sm:text-base md:text-lg text-white leading-snug">
             Meetups Ambassador at Miro
           </p>
-          <p className="text-xl text-white leading-snug">
+          <p className="sm:text-base md:text-lg text-white leading-snug">
             Training Organizer & Part-time Mentor
           </p>
         </div>

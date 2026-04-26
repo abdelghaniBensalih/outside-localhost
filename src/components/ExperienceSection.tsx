@@ -33,7 +33,7 @@ export default function ExperienceSection() {
       className="w-full bg-white text-black py-20 px-1 md:px-2"
     >
       {/* Title */}
-      <div className="mb-12">
+      <div className="px-2 mb-12">
         <h2 className="text-5xl md:text-6xl text-[#C8A96A] tracking-tight">
           Organizations/ <br />
           <span className="text-black font-normal">I Worked With</span>
