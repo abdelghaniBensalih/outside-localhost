@@ -2,10 +2,10 @@ import { useState, useEffect } from "react";
 
 export default function HeroSection() {
   const words = [
-    { text: "Outside Localhost", color: "#ffffff" },
-    { text: "Workshops", color: "#3fb68b" },
+    { text: "Outside Localhost", color: "#ffffffc4" },
+    { text: "Workshops", color: "#C9A84C" },
     { text: "Meetups", color: "#C9A84C" },
-    { text: "Videos", color: "#3fb68b" },
+    { text: "Videos", color: "#C9A84C" },
     { text: "Podcast", color: "#C9A84C" },
   ];
   const [currentWord, setCurrentWord] = useState(0);
@@ -13,7 +13,7 @@ export default function HeroSection() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentWord((prev) => (prev + 1) % words.length);
-    }, 4000); // Change word every 4 seconds (500ms animation + 3.5s pause)
+    }, 1000); // Change word every 1 seconds (500ms animation + 1.5s pause)
     return () => clearInterval(interval);
   }, []);
 
@@ -45,7 +45,13 @@ export default function HeroSection() {
         >
           {words[currentWord].text}
         </span>
-        <span className="text-sm sm:text-base md:text-lg font-medium tracking-[0.2em] uppercase text-white/80">
+        <span
+          className="text-sm sm:text-base md:text-lg font-medium tracking-[0.2em] uppercase px-3 py-2 rounded border-2 transition-all duration-500"
+          style={{
+            color: "#C8A96A",
+            borderColor: "#C8A96A",
+          }}
+        >
           Portfolio
         </span>
       </nav>
