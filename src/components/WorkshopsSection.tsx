@@ -1,10 +1,8 @@
-import React from "react";
 import workshops from "./data/workshops";
 
 export default function WorkshopsSection() {
   return (
     <section id="workshops" className="w-full">
-
       {/* Title Block */}
       <div className="bg-[#f7f7f7] py-10 px-6 md:px-12">
         <h2 className="text-5xl md:text-6xl font-light leading-tight">
@@ -16,10 +14,8 @@ export default function WorkshopsSection() {
       {/* Grid */}
       <div className="bg-black py-20 px-6 md:px-12">
         <div className="grid md:grid-cols-3 gap-14 max-w-8xl mx-auto">
-
           {workshops.map((ws, index) => (
             <div key={index} className="text-center group">
-
               {/* Image */}
               <div className="w-full h-[260px] overflow-hidden mb-6">
                 <img
@@ -55,14 +51,10 @@ export default function WorkshopsSection() {
               <p className="text-xs text-gray-500">
                 {ws.audience} • {ws.year}
               </p>
-
             </div>
           ))}
-
         </div>
-
       </div>
-
     </section>
   );
 }

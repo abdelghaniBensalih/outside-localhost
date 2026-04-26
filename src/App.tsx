@@ -5,8 +5,6 @@ import WorkshopsSection from "./components/WorkshopsSection";
 import ContactSection from "./components/ContactSection";
 import FooterSection from "./components/FooterSection";
 import DisclaimerModal from "./components/DisclaimerModal";
-import { events } from "./data/events";
-import { workshops } from "./data/workshops";
 import "./App.css";
 
 function App() {
@@ -22,10 +20,10 @@ function App() {
       <AboutSection />
 
       {/* Experience Section */}
-      <ExperienceSection events={events} />
+      <ExperienceSection />
 
       {/* Workshops Section */}
-      <WorkshopsSection workshops={workshops} />
+      <WorkshopsSection />
 
       {/* Contact Section */}
       <ContactSection />
