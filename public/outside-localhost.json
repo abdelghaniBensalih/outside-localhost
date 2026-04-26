@@ -1,0 +1,167 @@
+{
+  "organizations": [
+    {
+      "id": "1",
+      "name": "MLH (Major League Hacking)",
+      "role": "Hackathon Organizer & Mentor",
+      "description": "Organized hackathons and mentored student teams on building innovative projects with cutting-edge technologies.",
+      "logo": "/images/mlh.png",
+      "link": "https://mlh.io"
+    },
+    {
+      "id": "2",
+      "name": "Tech Community Hub",
+      "role": "Workshop Facilitator",
+      "description": "Designed and delivered hands-on workshops for developers at all skill levels, focusing on modern web technologies.",
+      "logo": "/images/tech-hub.png",
+      "link": "https://example.com"
+    },
+    {
+      "id": "3",
+      "name": "DevOps Community",
+      "role": "Speaker & Mentor",
+      "description": "Contributed to community events, mentored junior developers, and shared expertise on DevOps practices.",
+      "logo": "/images/devops.png",
+      "link": "https://example.com"
+    }
+  ],
+  "hackathons": [
+    {
+      "id": "h1",
+      "title": "TechNova Hackathon 2024",
+      "description": "Built a full-stack AI-powered application with real-time collaboration features. Won Best Innovation Award.",
+      "type": "hackathon",
+      "date": "2024-10-15",
+      "location": "San Francisco, USA",
+      "role": "Participant & Organizer",
+      "topics": ["React", "TypeScript", "AI", "APIs"],
+      "tags": ["winner", "innovation"],
+      "logo": "/images/technova.png",
+      "link": "https://example.com"
+    },
+    {
+      "id": "h2",
+      "title": "Global Hack Week 2024",
+      "description": "Mentored 15+ teams building solutions for social impact. Participated in judging and feedback sessions.",
+      "type": "hackathon",
+      "date": "2024-08-20",
+      "location": "Virtual",
+      "role": "Mentor & Judge",
+      "topics": ["Web Dev", "Mobile", "Sustainability"],
+      "tags": ["mentorship", "global"],
+      "link": "https://example.com"
+    },
+    {
+      "id": "h3",
+      "title": "StartupWeekend 2024",
+      "description": "Organized 3-day hackathon event for entrepreneurs. Coordinated 50+ participants and 10 industry mentors.",
+      "type": "hackathon",
+      "date": "2024-06-10",
+      "location": "New York, USA",
+      "role": "Organizer",
+      "topics": ["Startup", "Business", "Tech"],
+      "tags": ["organizer", "startup"],
+      "link": "https://example.com"
+    }
+  ],
+  "workshops": [
+    {
+      "id": "w1",
+      "title": "React & TypeScript Mastery",
+      "description": "Comprehensive 2-day workshop covering React fundamentals, TypeScript advanced patterns, and performance optimization.",
+      "type": "workshop",
+      "date": "2024-11-05",
+      "location": "Tech Hub, Downtown",
+      "role": "Trainer",
+      "topics": ["React", "TypeScript", "Performance"],
+      "tags": ["frontend", "beginner-friendly"],
+      "link": "https://example.com"
+    },
+    {
+      "id": "w2",
+      "title": "Web Performance & Optimization",
+      "description": "3-hour hands-on workshop on optimizing web applications for speed and efficiency. 45+ attendees.",
+      "type": "workshop",
+      "date": "2024-09-12",
+      "location": "Online",
+      "role": "Instructor",
+      "topics": ["Performance", "Optimization", "DevTools"],
+      "tags": ["intermediate", "online"],
+      "link": "https://example.com"
+    },
+    {
+      "id": "w3",
+      "title": "Full-Stack Development Bootcamp",
+      "description": "10-week intensive bootcamp teaching modern full-stack development with React, Node.js, and databases.",
+      "type": "training",
+      "date": "2024-05-01",
+      "location": "Learning Center",
+      "role": "Lead Instructor",
+      "topics": ["Frontend", "Backend", "Databases", "DevOps"],
+      "tags": ["intensive", "certification"],
+      "link": "https://example.com"
+    }
+  ],
+  "events": [
+    {
+      "id": "e1",
+      "title": "Web Summit 2024",
+      "description": "Attended the world's largest tech conference. Participated in keynote sessions on AI, Web3, and sustainable tech.",
+      "type": "conference",
+      "date": "2024-11-10",
+      "location": "Lisbon, Portugal",
+      "role": "Attendee & Speaker",
+      "topics": ["Web", "AI", "Innovation"],
+      "tags": ["international", "conference"],
+      "link": "https://example.com"
+    },
+    {
+      "id": "e2",
+      "title": "React Conf 2024",
+      "description": "Gave a talk on 'Building Scalable React Applications'. Attended advanced workshops on Concurrent React.",
+      "type": "conference",
+      "date": "2024-07-15",
+      "location": "Denver, USA",
+      "role": "Speaker",
+      "topics": ["React", "Performance", "Scalability"],
+      "tags": ["speaker", "frontend"],
+      "link": "https://example.com"
+    },
+    {
+      "id": "e3",
+      "title": "Tech Meetup Series",
+      "description": "Monthly community meetups featuring talks on emerging technologies, networking, and skill-sharing.",
+      "type": "event",
+      "date": "2024-09-01",
+      "location": "Community Space",
+      "role": "Co-organizer",
+      "topics": ["Community", "Tech Talks", "Networking"],
+      "tags": ["monthly", "community"],
+      "link": "https://example.com"
+    }
+  ],
+  "eventsOrganized": [
+    {
+      "id": "o1",
+      "title": "CodeChallenge 2024",
+      "description": "Organized regional coding competition with 200+ participants. Coordinated judging and prizes.",
+      "type": "competition",
+      "date": "2024-10-05",
+      "location": "Convention Center",
+      "role": "Lead Organizer",
+      "tags": ["competition", "large-scale"],
+      "link": "https://example.com"
+    },
+    {
+      "id": "o2",
+      "title": "Developer Day 2024",
+      "description": "Organized annual developer conference with 800+ attendees, 20 speakers, and 10 workshop tracks.",
+      "type": "event",
+      "date": "2024-08-28",
+      "location": "Downtown Convention Hall",
+      "role": "Co-founder & Organizer",
+      "tags": ["conference", "annual"],
+      "link": "https://example.com"
+    }
+  ]
+}
