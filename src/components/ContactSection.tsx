@@ -4,7 +4,7 @@ import { FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 export default function ContactSection() {
   return (
-    <section className="w-full min-h-screen bg-black text-white px-6 md:px-12 py-16 flex flex-col justify-between">
+    <section id="contact" className="w-full min-h-screen bg-black text-white px-6 md:px-12 py-16 flex flex-col justify-between">
       {/* Top Bar */}
       <div className="flex justify-between text-xs tracking-[0.3em] text-gray-500">
         <span>ABDELGHANI BENSALEH</span>

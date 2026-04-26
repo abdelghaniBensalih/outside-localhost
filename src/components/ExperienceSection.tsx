@@ -28,7 +28,7 @@ export default function ExperienceSection() {
   };
 
   return (
-    <section className="w-full bg-white text-black py-20 px-2 md:px-2">
+    <section id="experiences" className="w-full bg-white text-black py-20 px-2 md:px-2">
       {/* Title */}
       <div className="mb-8">
         <h2 className="text-5xl md:text-6xl text-[#C8A96A] tracking-tight">

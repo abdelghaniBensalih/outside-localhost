@@ -3,7 +3,7 @@ import workshops from "./data/workshops";
 
 export default function WorkshopsSection() {
   return (
-    <section className="w-full">
+    <section id="workshops" className="w-full">
 
       {/* Title Block */}
       <div className="bg-[#f7f7f7] py-10 px-6 md:px-12">
