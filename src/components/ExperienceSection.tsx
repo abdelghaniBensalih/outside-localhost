@@ -30,10 +30,10 @@ export default function ExperienceSection() {
   return (
     <section className="w-full bg-white text-black py-20 px-2 md:px-2">
       {/* Title */}
-      <div className="mb-16">
-        <h2 className="text-5xl md:text-6xl font-light tracking-tight">
-          Organizations <br />
-          <span className="text-black font-normal">Worked With</span>
+      <div className="mb-8">
+        <h2 className="text-5xl md:text-6xl text-[#C8A96A] tracking-tight">
+          Organizations/ <br />
+          <span className="text-black font-normal">I Worked With</span>
         </h2>
         <p className="text-gray-500 mt-4 max-w-xl">
           Top experiences and initiatives I've worked on and contributed to.
@@ -56,11 +56,11 @@ export default function ExperienceSection() {
               }`}
             >
               {/* Image Gallery */}
-              <div className="md:w-1/3 relative group">
+              <div className="md:w-1/5 relative group">
                 <img
                   src={currentImage}
                   alt="experience"
-                  className="w-full h-full object-cover transition-all duration-300"
+                  className="w-full h-full object-contain transition-all duration-300"
                 />
 
                 {/* Navigation Arrows */}
@@ -109,7 +109,7 @@ export default function ExperienceSection() {
               </div>
 
               {/* Content */}
-              <div className="md:w-2/3 bg-black text-white p-8 flex flex-col justify-center">
+              <div className="md:w-4/5 bg-black text-white p-8 flex flex-col justify-center">
                 {/* Title */}
                 <h3 className="text-sm tracking-widest text-yellow-500 mb-2">
                   {event.title.toUpperCase()}
