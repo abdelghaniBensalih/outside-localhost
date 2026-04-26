@@ -47,10 +47,10 @@ const experiences = [
   },
   {
     title: "Compile & Conquer",
-    role: "Contest Host",
+    role: "Contest Co-Host",
     year: "2026",
     description:
-      "Designed and hosted a competitive programming contest featuring 15 problems over 5 hours, challenging participants across multiple difficulty levels.",
+      "Co-designed and co-hosted a competitive programming contest featuring 15 problems over 5 hours, challenging participants across multiple difficulty levels.",
     impact: ["15 problems", "5 hours", "Advanced challenges"],
     image: "/images/experiences/code212-uca/code212-uca.png",
     images: [
