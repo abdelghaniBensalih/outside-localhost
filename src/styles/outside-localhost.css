@@ -65,6 +65,24 @@
 /* Section Styling */
 section {
   scroll-margin-top: 80px;
+  position: relative;
+}
+
+/* Add subtle separators between sections */
+section:not(:first-of-type)::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(201, 168, 76, 0.15),
+    transparent
+  );
+  z-index: 1;
 }
 
 section h2 {
@@ -130,7 +148,19 @@ div[class*="hover:"] {
   }
 
   section {
-    padding: 3rem 1.5rem;
+    padding: 4rem 1.5rem;
+  }
+
+  /* Mobile spacing between sections */
+  section:not(:first-of-type) {
+    margin-top: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  /* Desktop spacing between sections */
+  section:not(:first-of-type) {
+    margin-top: 0;
   }
 }
 
@@ -138,6 +168,32 @@ div[class*="hover:"] {
 .grid {
   display: grid;
   gap: 1.5rem;
+}
+
+/* Enhanced card styling for better section separation */
+[class*="bg-black"] {
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1f2a 100%);
+}
+
+[class*="bg-white"] {
+  background-color: #ffffff;
+  position: relative;
+}
+
+/* Subtle accent dividers between sections */
+[class*="bg-white"]::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(201, 168, 76, 0.2) 50%,
+    transparent 100%
+  );
 }
 
 @media (min-width: 768px) {

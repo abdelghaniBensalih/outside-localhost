@@ -12,7 +12,7 @@ export default function WorkshopsSection() {
       </div>
 
       {/* Grid */}
-      <div className="bg-black py-20 px-6 md:px-12">
+      <div className="bg-black py-24 md:py-32 px-6 md:px-12">
         <div className="grid md:grid-cols-3 gap-14 max-w-8xl mx-auto">
           {workshops.map((ws, index) => (
             <div key={index} className="text-center group">

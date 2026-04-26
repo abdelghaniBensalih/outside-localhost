@@ -14,7 +14,9 @@ function App() {
       <DisclaimerModal />
 
       {/* Hero Section */}
-      <HeroSection />
+      <section className="relative">
+        <HeroSection />
+      </section>
 
       {/* About Section */}
       <AboutSection />

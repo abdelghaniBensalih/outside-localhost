@@ -1,8 +1,11 @@
 export default function AboutSection() {
   return (
-    <div id="about" className="w-full bg-white font-sans text-black flex flex-col">
+    <div
+      id="about"
+      className="w-full bg-white font-sans text-black flex flex-col py-5 md:py-10"
+    >
       {/* Title */}
-      <div className="px-7 pt-14 pb-0">
+      <div className="bg-[#f7f7f7] px-7 pt-12 py-10 md:pt-0 ">
         <p className="text-3xl md:text-5xl font-light leading-none text-[#C9A84C]">
           About
         </p>
@@ -12,7 +15,7 @@ export default function AboutSection() {
       </div>
 
       {/* Card */}
-      <div className="mt-6 bg-black flex flex-col md:flex-row relative">
+      <div className=" bg-black flex flex-col md:flex-row relative mb-12 md:mb-0">
         {/* Text Column */}
         <div className="flex-1 flex flex-col justify-center gap-4 px-5 py-6 md:px-10 md:py-10">
           <p className="text-sm sm:text-base md:text-lg leading-relaxed text-neutral-300 max-w-xl">
