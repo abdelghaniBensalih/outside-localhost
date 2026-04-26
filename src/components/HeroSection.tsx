@@ -1,4 +1,30 @@
 import { useState, useEffect } from "react";
+import { FaInstagram, FaLinkedin } from "react-icons/fa";
+
+// Add shake animation styles
+const shakeStyle = `
+  @keyframes shake {
+    0%, 10%, 90%, 100% { transform: translateX(0) translateY(0); }
+    12% { transform: translateX(-2px) translateY(-2px); }
+    14% { transform: translateX(2px) translateY(2px); }
+    16% { transform: translateX(-2px) translateY(2px); }
+    18% { transform: translateX(2px) translateY(-2px); }
+    20% { transform: translateX(-2px) translateY(-2px); }
+    22% { transform: translateX(2px) translateY(2px); }
+    24% { transform: translateX(-2px) translateY(2px); }
+    26% { transform: translateX(2px) translateY(-2px); }
+    28% { transform: translateX(-2px) translateY(-2px); }
+  }
+  .shake {
+    animation: shake 3s infinite;
+  }
+`;
+
+if (typeof document !== "undefined") {
+  const styleSheet = document.createElement("style");
+  styleSheet.textContent = shakeStyle;
+  document.head.appendChild(styleSheet);
+}
 
 export default function HeroSection() {
   const words = [
@@ -120,6 +146,30 @@ export default function HeroSection() {
               Rouni Dev
             </a>
           </p>
+        </div>
+      </div>
+
+      {/* Floating Social Icons */}
+      <div className="fixed bottom-8 right-8 z-30 flex flex-col gap-3 items-center">
+        <div className="flex gap-4">
+          <a
+            href="https://linkedin.com/in/a-bensalih"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="shake w-12 h-12 flex items-center justify-center border-2 border-[#C8A96A] bg-[#0A66C2] rounded-full text-white hover:bg-black hover:text-[#0A66C2] hover:border-[#0A66C2] transition-all duration-300 hover:scale-110"
+            aria-label="LinkedIn"
+          >
+            <FaLinkedin size={20} />
+          </a>
+          <a
+            href="https://instagram.com/rouni.dev"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="shake w-12 h-12 flex items-center justify-center border-2 border-[#C8A96A] bg-[#E1306C] rounded-full text-white hover:bg-black hover:text-[#E1306C] hover:border-[#E1306C] transition-all duration-300 hover:scale-110"
+            aria-label="Instagram"
+          >
+            <FaInstagram size={20} />
+          </a>
         </div>
       </div>
     </div>
