@@ -6,16 +6,16 @@ export default function WorkshopsSection() {
     <section className="w-full">
 
       {/* Title Block */}
-      <div className="bg-[#f7f7f7] py-24 px-6 md:px-12">
+      <div className="bg-[#f7f7f7] py-10 px-6 md:px-12">
         <h2 className="text-5xl md:text-6xl font-light leading-tight">
           <span className="text-[#C8A96A]">Achievements/</span> <br />
-          <span className="text-black font-normal">Features</span>
+          <span className="text-black font-normal">Featured Activities</span>
         </h2>
       </div>
 
       {/* Grid */}
       <div className="bg-black py-20 px-6 md:px-12">
-        <div className="grid md:grid-cols-3 gap-14 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-3 gap-14 max-w-8xl mx-auto">
 
           {workshops.map((ws, index) => (
             <div key={index} className="text-center group">
@@ -35,7 +35,7 @@ export default function WorkshopsSection() {
               </h3>
 
               {/* Description */}
-              <p className="text-gray-400 text-sm leading-relaxed max-w-xs mx-auto mb-4">
+              <p className="text-gray-400 text-sm leading-relaxed max-w-xl mx-auto mb-4">
                 {ws.description}
               </p>
 
