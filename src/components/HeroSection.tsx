@@ -99,10 +99,26 @@ export default function HeroSection() {
   "
         >
           <p className="text-[1.23rem] md:text-lg text-white leading-snug">
-            Meetups Ambassador at Miro
+            Meetups Ambassador at{" "}
+            <a
+              href="https://miro.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#C8A96A] hover:underline transition-colors"
+            >
+              Miro
+            </a>
           </p>
           <p className="text-[1.11rem] md:text-lg text-white leading-snug">
-            Training Organizer & Part-time Mentor
+            Digital Creator at{" "}
+            <a
+              href="https://instagram.com/rouni.dev"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#C8A96A] hover:underline transition-colors"
+            >
+              Rouni Dev
+            </a>
           </p>
         </div>
       </div>
